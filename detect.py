@@ -120,7 +120,7 @@ class detect:
                     
                     cv2.putText(img, f"{km_per_hr:.2f} km/h", (x, y - 25), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1)
                     """
-                    #uncomment the above LOC to estim
+                    #uncomment the above LOC to estimate the speed in km/hr
                     speed = magnitude / elapsed_time
                     cv2.putText(img, f"{speed:.2f} px/s", (x, y - 25), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1)
 
