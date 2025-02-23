@@ -1,4 +1,4 @@
-# RoadWatch: Smart Vehicle Detection \& Speed Monitoring
+# Catch Me If You Scan: Smart Vehicle Detection \& Speed Monitoring
 
 **Abstract**: This code implements a real-time vehicle speed estimation system by integrating *Farneback optical flow* for speed calculation and *YOLO* for vehicle detection, optimizing for precise speed measurements, robust tracking, and enhanced detection accuracy.
 
