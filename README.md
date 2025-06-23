@@ -144,7 +144,6 @@ Video processing complete! Output saved to: output.mp4
 - **Multithreading**: OpenCV optimized for 4 threads
 - **Resolution Scaling**: 50% downscaling for faster processing
 - **Selective Detection**: Only processes relevant vehicle classes
-- **Batch Processing**: No GUI overhead for faster execution
 
 ## Configuration Parameters
 
