@@ -4,8 +4,11 @@ A real-time vehicle detection and speed estimation system using **YOLOv3** model
 
 ## Example Demo
 
-![Baby Driver Demo](demo.gif)
-*Real-time vehicle tracking with speed estimation*
+<p align="center">
+  <img src="/demo/output1.gif" width="250"/>
+  <img src="/demo/output2.gif" width="250"/>
+  <img src="/demo/output3.gif" width="250"/>
+</p>
 
 
 ## Features
