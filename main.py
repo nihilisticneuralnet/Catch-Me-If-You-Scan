@@ -36,7 +36,8 @@ net = cv2.dnn.readNetFromDarknet(modelConfiguration, modelWeigheights)
 np.random.seed(42)
 colors = np.random.randint(0, 255, size=(len(classNames), 3), dtype='uint8')
 
-def processVideo(output_path="/kaggle/working/output_video.mp4"):
+
+def processVideo(output_path="output.mp4"):
     global FPS, PIXELS_PER_METER
     
     FPS = int(cap.get(cv2.CAP_PROP_FPS))
@@ -79,6 +80,10 @@ def processVideo(output_path="/kaggle/working/output_video.mp4"):
             
             detector.postProcess(outputs, frame)
             
+            # cv2.imshow('Video', frame)
+            # if cv2.waitKey(1) & 0xFF == ord('q'):
+            #     break
+            
             out.write(frame)
             
             frame_count += 1
@@ -91,6 +96,7 @@ def processVideo(output_path="/kaggle/working/output_video.mp4"):
     finally:
         cap.release()
         out.release()
+        # cv2.destroyAllWindows()
         print(f"Video processing complete! Output saved to: {output_path}")
         print(f"Total frames processed: {frame_count}")
 
