@@ -18,13 +18,6 @@ A real-time vehicle detection and speed estimation system using **YOLOv3** model
 - **Speed Estimation**: Real-time speed calculation in km/h with perspective correction
 - **Speed Violation Detection**: Visual alerts for vehicles exceeding 80 km/h
 
-## Technical Highlights
-
-- **Deep Learning**: YOLOv3 object detection with COCO dataset
-- **Computer Vision**: OpenCV for video processing and visualization
-- **Tracking Algorithm**: Centroid-based tracking with distance thresholding
-- **Speed Calculation**: Physics-based speed estimation with smoothing filters
-- **Perspective Correction**: Adjusts for camera angle and distance effects
 
 ## Installation
 
