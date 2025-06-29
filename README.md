@@ -31,8 +31,8 @@ A real-time vehicle detection and speed estimation system using **YOLOv3** model
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/nihilisticneuralnet/Baby-Driver.git
-   cd Baby-Driver
+   git clone https://github.com/nihilisticneuralnet/BabyDriver.git
+   cd BabyDriver
    ```
 
 2. **Install dependencies**
