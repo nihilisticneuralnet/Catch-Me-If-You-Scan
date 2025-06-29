@@ -1,4 +1,4 @@
-# BabyDriver - Real Time Vehicle Detection \& Speed Estimation
+# BabyDriver: Real Time Vehicle Detection \& Speed Estimation
 
 A real-time vehicle detection and speed estimation system using **YOLOv3** model and **Farneback** algorithm. This project tracks multiple vehicles in video footage and estimates their speeds with visual indicators for speed violations.
 
@@ -181,7 +181,7 @@ This project is licensed under the MIT License. See LICENSE file for details.
 If you use this code in academic work, please cite:
 ```
 @software{babydriver_detect,
-  title={BabyDriver - Real Time Vehicle Detection & Speed Estimation},
+  title={BabyDriver: Real Time Vehicle Detection & Speed Estimation},
   author={[Parth]},
   year={2025},
   url={https://github.com/nihilisticneuralnet/BabyDriver}
