@@ -103,15 +103,7 @@ The system generates:
   - 🟢 Green text: Normal speed (≤80 km/h)
   - 🔴 Red text: Speed violation (>80 km/h)
 
-### Sample Output Format
-```
-Processing video: 1920x1080 -> 960x540
-FPS: 30, Total frames: 3600
-Estimated pixels per meter: 4
-Speed multiplier: 6.0
-Processed 900/3600 frames (25.0%)
-Video processing complete! Output saved to: output.mp4
-```
+
 
 ## Technical Architecture
 
@@ -174,10 +166,7 @@ Video processing complete! Output saved to: output.mp4
 
 - [ ] **YOLOv5/v8 Integration**: Upgrade to newer, faster models
 - [ ] **GPU Acceleration**: CUDA/OpenCL support for real-time processing
-- [ ] **Advanced Tracking**: DeepSORT or ByteTrack integration
-- [ ] **Speed Limit Zones**: Configurable speed limits by region
+- [ ] **Other Algos**: DeepSORT or ByteTrack integration or Lucas-Kannade, etc for uniform speed estimation
 - [ ] **Analytics Dashboard**: Speed statistics and violation reports
-- [ ] **Multi-Camera Support**: Process multiple video streams
 - [ ] **Live Stream Processing**: Real-time camera feed analysis
-- [ ] **Other Algos**: Try Lucas-Kannade, etc for uniform speed estimation
 
