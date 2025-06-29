@@ -170,3 +170,20 @@ The system generates:
 - [ ] **Analytics Dashboard**: Speed statistics and violation reports
 - [ ] **Live Stream Processing**: Real-time camera feed analysis
 
+
+## License
+
+This project is licensed under the MIT License. See LICENSE file for details.
+
+
+## Citation
+
+If you use this code in academic work, please cite:
+```
+@software{babydriver_detect,
+  title={BabyDriver - Real Time Vehicle Detection & Speed Estimation},
+  author={[Parth]},
+  year={2025},
+  url={https://github.com/nihilisticneuralnet/BabyDriver}
+}
+```
