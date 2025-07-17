@@ -1,6 +1,6 @@
 # BabyDriver: Real Time Vehicle Detection \& Speed Estimation
 
-A real-time vehicle detection and speed estimation system using **YOLOv3** model and **Farneback** algorithm. This project tracks multiple vehicles in video footage and estimates their speeds with visual indicators for speed violations.
+A real-time vehicle detection and speed estimation system using **YOLO** model. This project tracks multiple vehicles in video footage and estimates their speeds with visual indicators for speed violations.
 
 ## Example Demo
 
