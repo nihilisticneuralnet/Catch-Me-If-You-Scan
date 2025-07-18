@@ -1,6 +1,6 @@
 # BabyDriver: Real Time Vehicle Detection \& Speed Estimation
 
-A real-time vehicle detection and speed estimation system using **YOLO** model. This project tracks multiple vehicles in video footage and estimates their speeds with visual indicators for speed violations.
+A real-time vehicle detection and speed estimation system using **YOLO** model.
 
 ## Example Demo
 
@@ -105,6 +105,5 @@ output_video = "output.mp4" # Output video path
 ## Future Enhancements
 
 - [ ] **Other Algos**: DeepSORT or ByteTrack integration or Lucas-Kannade, etc for uniform speed estimation
-- [ ] **Live Stream Processing**: Real-time camera feed analysis
 
 
